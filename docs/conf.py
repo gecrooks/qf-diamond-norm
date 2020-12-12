@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "python_mvp"
+project = "qf_diamond_norm"
 copyright = "2020, Gavin Crooks"
 author = "Gavin Crooks"
 
