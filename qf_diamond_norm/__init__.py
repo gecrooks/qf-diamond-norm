@@ -5,3 +5,4 @@
 
 from .config import __version__  # noqa: F401
 from .config import about  # noqa: F401
+from .info import diamond_norm  # noqa: F401
