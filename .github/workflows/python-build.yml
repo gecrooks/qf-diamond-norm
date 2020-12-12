@@ -28,7 +28,21 @@ jobs:
       run: |
         conda install -c conda-forge cvxpy
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi         
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+        python -m pip install importlib_metadata
+        python -m pip install quantumflow
+        # python -m pip install cvxpy
+        python -m pip install pytest >= 4.6
+        python -m pip install pytest-cov
+        python -m pip install flake8
+        python -m pip install mypy
+        python -m pip install black
+        python -m pip install isort
+        python -m pip install sphinx
+        python -m pip install sphinxcontrib-bibtex
+        python -m pip install setuptools_scm
+
         python -m pip install .
     - name: About
       run: |
