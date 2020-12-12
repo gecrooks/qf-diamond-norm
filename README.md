@@ -33,12 +33,12 @@ $ pip install -e .
 
 ## Example
 
-'''
+```
     > import quantumflow as qf
     > from qf_diamond_norm import diamond_norm
     > chan0 = qf.random_channel([0, 1, 2]) # 3-qubit channel
     > chan1 = qf.random_channel([0, 1, 2])
     > dn = diamond_norm(chan0, chan1)
     > print(dn)
-'''
+```
 
