@@ -32,9 +32,9 @@ jobs:
 
         python -m pip install quantumflow
         python -m pip install .[dev]
-    - name: About
-      run: |
-        python -m $(python -Wi setup.py --name).about
+   # - name: About
+   #   run: |
+   #     python -m $(python -Wi setup.py --name).about
     - name: Test with pytest
       run: |
         python -m pytest --cov-fail-under 100
